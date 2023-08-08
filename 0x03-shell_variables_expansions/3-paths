@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( 'echo $PATH | greo -o ":/" | wc -l' +1))
+echo $((' echo $PATH | greo -o ":/" | wc -l ' +1))
